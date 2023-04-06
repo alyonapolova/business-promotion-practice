@@ -1,0 +1,53 @@
+body {
+  font-family: 'Popins', sans-serif;
+  color: #22343d;
+  background-color: #ffffff;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+:root {
+  --text-color: #22343d;
+  --logo-color: #173a56;
+  --effect-color: #02897a;
+}
+
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+/*Header*/
+.header-container {
+  display: flex;
+}
+.header-list {
+  display: flex;
+  gap: 30px;
+}
+.header-list-btn {
+  display: flex;
+  gap: 24px;
+}
