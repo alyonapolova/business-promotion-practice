@@ -11,75 +11,94 @@
       href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="header">
       <div class="container header-container">
-        <nav>
-          <a href="index.html"><svg width="40" height="36">
-            <use href="./images/icons.svg#icon-logo"></use>
-          </svg></a>
-          <a href="index.html">Product</a>
+        <nav class="header-nav">
+          
+            <a href="index.html" class="header-logo"><svg class="header-logo-icon" width="40" height="36">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg></a>
+            <a href="index.html" class="header-logo-link link">Product</a>
          
-           <ul class="header-list list">
-             <li><a href="" class="link">Product</a></li>
-             <li><a href="" class="link">Pricing</a></li>
-             <li><a href="" class="link">Customers</a></li>
-             <li><a href="" class="link">Resources</a></li>
-           </ul>
-           </nav>
-           <ul class="header-list-btn list">
-             <li><button type="button">Sign In</button></li>
-             <li><button type="button">Sign Up</button></li>
-           </ul>
-        
+
+         
+            <ul class="header-list list">
+              <li class="header-item"><a href="" class="header-link link">Product</a></li>
+              <li class="header-item"><a href="" class="header-link link">Pricing</a></li>
+              <li class="header-item"><a href="" class="header-link link">Customers</a></li>
+              <li class="header-item"><a href="" class="header-link link">Resources</a></li>
+            </ul>
+            </nav>
+
+            <ul class="header-list-btn list">
+              <li class="header-item-btn"><button type="button" class="header-btn-white">Sign In</button></li>
+              <li class="header-item-btn"><button type="button" class="header-btn">Sign Up</button></li>
+            </ul>
+            <div class="header-icon-bg"> <svg class="header-icon" width="24" height="24"><use href="./images/icons.svg#icon-header-icon"></use></svg></div>
+            
+         
       </div>
     </header>
     <main>
     
         <section class="hero">
-            <div class="container">
-          <h1>Work at the speed of thought</h1>
-          <p>
-            Tools, tutorials, design and innovation experts, all in one place! The
-            most intuitive way to imagine your next user experience.
-          </p>
-          <button type="button">Get started</button>
-          <a href="">Watch the Video</a>
-         <img src="./images/hero-img .svg" alt="Peoples" width="610" height="555">
-          </svg>
+            <div class="container hero-container">
+        <div class="hero-right">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-text">
+              Tools, tutorials, design and innovation experts, all in one place! The
+              most intuitive way to imagine your next user experience.
+            </p>
+             <div class="hero-video">
+            <button type="button" class="hero-btn">Get started</button>
+           
+               <svg class="hero-icon" width="20" height="18.02">
+                <use href="./images/icons.svg#icon-hero-icon"></use>
+              </svg>
+              <a href="" class="hero-link">Watch the Video</a>
+            </div>
+        </div>
+
+       
+           <img src="./images/hero-img .svg" alt="Peoples" width="610" height="555">
+            </svg>
+           
+      
             </div>
         </section>
     
       
         <section class="feature">
-          <div class="container">
-          <h2>Product was Built Specifically for You</h2>
-          <ul>
-            <li>
-              <svg width="54" height="61.89"><use href="./images/icons.svg#icon-icon-1"></use></svg>
-              <h3>First click tests</h3>
-              <p>While most people enjoy casino gambling,</p>
+          <div class="container feature-container">
+          <h2 class="feature-title">Product was Built Specifically for You</h2>
+          <ul class="feature-list list">
+            <li class="feature-item">
+              <svg class="feature-icon" width="54" height="61.89"><use href="./images/icons.svg#icon-icon-1"></use></svg>
+              <h3 class="feature-small-title">First click tests</h3>
+              <p class="feature-text">While most people enjoy casino gambling,</p>
             </li>
-            <li>
-              <svg width="54" height="61.89"><use href="./images/icons.svg#icon-icon-2"></use></svg>
-              <h3>Design surveys</h3>
-              <p>Sports betting, lottery and bingo playing for the fun</p>
+            <li class="feature-item">
+              <svg class="feature-icon" width="54" height="61.89"><use href="./images/icons.svg#icon-icon-2"></use></svg>
+              <h3 class="feature-small-title">Design surveys</h3>
+              <p class="feature-text">Sports betting, lottery and bingo playing for the fun</p>
             </li>
-            <li>
-              <svg width="54" height="61.89"><use href="./images/icons.svg#icon-icon-3"></use></svg>
-              <h3>Preference tests</h3>
-              <p>The Myspace page defines the individual.</p>
+            <li class="feature-item">
+              <svg class="feature-icon" width="54" height="61.89"><use href="./images/icons.svg#icon-icon-3"></use></svg>
+              <h3 class="feature-small-title">Preference tests</h3>
+              <p class="feature-text">The Myspace page defines the individual.</p>
             </li>
-            <li>
-              <svg width="54" height="61.89"><use href="./images/icons.svg#icon-icon-4"></use></svg>
-              <h3>Five second tests</h3>
-              <p>Personal choices and the overall personality of the person.</p>
+            <li class="feature-item">
+              <svg class="feature-icon" width="54" height="61.89"><use href="./images/icons.svg#icon-icon-4"></use></svg>
+              <h3 class="feature-small-title">Five second tests</h3>
+              <p class="feature-text">Personal choices and the overall personality of the person.</p>
             </li>
           </ul>
-          <button type="button">Sign up now</button>
+          <button type="button" class="feature-btn">Sign up now</button>
             </div>
         </section>
   
