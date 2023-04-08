@@ -247,3 +247,79 @@ ul {
   border-color: transparent;
   text-transform: uppercase;
 }
+
+/*Management*/
+.management {
+  margin-top: 50px;
+}
+
+.management-container {
+}
+.management-list {
+}
+.list {
+}
+
+.management-item > .managenemt-content:nth-child(2n + 1) {
+  margin-right: 84px;
+}
+.management-item > .managenemt-content:nth-child(2n) {
+  margin-left: 84px;
+}
+
+.managenemt-content {
+  padding-top: 40px;
+  padding-bottom: 41px;
+}
+.management-item {
+  display: flex;
+}
+
+.management-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.management-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--text-color);
+}
+.management-span {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+
+  color: var(--text-color);
+}
+
+.management-text {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+
+  color: var(--text-color);
+}
+
+.management-small-list {
+  margin-top: 30px;
+}
+.management-small-item {
+  margin-bottom: 25px;
+}
+.management-small-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.62;
+
+  color: var(--text-color);
+}
+.management-small-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+
+  color: var(--text-color);
+}
